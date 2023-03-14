@@ -1,0 +1,46 @@
+{
+  "objectName" : "rt_luxuryarmchair",
+  "colonyTags" : ["opulent", "valuable"],
+  "rarity" : "Common",
+  "description" : "A very nice-looking armchair.",
+  "shortdescription" : "Fancy Armchair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 130,
+
+  "apexDescription" : "A soft golden chair.",
+  "avianDescription" : "A pretty chair with a blanket.",
+  "floranDescription" : "Chair is very sssoft and colorful.",
+  "glitchDescription" : "Interested. A fine-looking chair with a blanket.",
+  "humanDescription" : "A lovely, luxurious chair.",
+  "hylotlDescription" : "The silk sheets on this chair are soothing to touch.",
+  "novakidDescription":  "A fancy gold chair, looks pretty comfortable.",
+
+  "inventoryIcon" : "luxuryarmchairicon.png",
+  "orientations" : [
+    {
+      "image" : "luxuryarmchair.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "luxuryarmchair.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+
+}

@@ -1,0 +1,9 @@
+[ {
+  "op": "add",
+  "path": "/artwork",
+  "value": [
+    [0, [
+      { "item": { "name" : "dualitypainting" }, "rarity" : 0.06 }
+    ]]
+  ]
+} ]

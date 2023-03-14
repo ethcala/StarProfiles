@@ -1,0 +1,56 @@
+{
+  "objectName" : "rt_luxurybench",
+  "colonyTags" : ["opulent","valuable"],
+  "rarity" : "Common",
+  "description" : "A nice bench with a soft cloth to sit on.",
+  "shortdescription" : "Fancy Bench",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 160,
+
+  "apexDescription" : "A decorative bench with padding.",
+  "avianDescription" : "A nice, fashionable couch.",
+  "floranDescription" : "Sssilky sheet covers this gold bench.",
+  "glitchDescription" : "Impressed. This bench is very finely crafted.",
+  "humanDescription" : "A fancy looking bench.",
+  "hylotlDescription" : "A soft, pleasant seating option.",
+  "novakidDescription" : "A pretty nice seat to rest your legs.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "luxurybenchicon.png",
+  "orientations" : [
+    {
+      "image" : "luxurybench.png:<color>",
+      "sitCoverImage" : "/objects/luxury/luxurybench/luxurybenchcover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-7, 21], // Right
+        [6, 21] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "luxurybench.png:<color>",
+      "sitCoverImage" : "/objects/luxury/luxurybench/luxurybenchcover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-6, 21], // Left
+        [7, 21] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

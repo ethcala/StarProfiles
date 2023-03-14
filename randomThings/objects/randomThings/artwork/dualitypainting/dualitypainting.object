@@ -1,0 +1,32 @@
+{
+  "objectName" : "rt_dualitypainting",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 120,
+
+  "description" : "A painting depicting soft light contrasted with deep darkness.",
+  "shortdescription" : "Duality Painting",
+  "race" : "generic",
+
+  "apexDescription" : "The light and dark in this image leave a lasting impression.",
+  "avianDescription" : "The colors in this picture are very striking.",
+  "floranDescription" : "Ssshiny colors in the painting.",
+  "glitchDescription" : "Intrigued. The style of this painting is unique.",
+  "humanDescription" : "This picture shows the two sides of us all.",
+  "hylotlDescription" : "This image is peaceful to behold.",
+  "novakidDescription" : "The colors in this picture are mighty fancy.",
+
+  "inventoryIcon" : "dualitypaintingicon.png",
+  "orientations" : [
+    {
+      "image" : "dualitypainting.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
